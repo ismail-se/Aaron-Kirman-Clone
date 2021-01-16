@@ -1,0 +1,17 @@
+.slider {
+  background: url("/images/slide1.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-clip: border-box;
+  height: 600px;
+  width: 100%;
+  position: relative;
+}
+
+.slider img {
+  position: absolute;
+  right: 12%;
+  top: 40%;
+}
+/*# sourceMappingURL=Slider.module.css.map */

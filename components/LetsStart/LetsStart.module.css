@@ -1,0 +1,31 @@
+.letsStart {
+  background: url("/bg.jpg");
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 86px 0 87px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  margin: 5rem 0;
+}
+
+.letsStart .text {
+  margin: 1rem;
+  width: 20rem;
+}
+
+.letsStart .buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.textBorder {
+  margin: 2rem !important;
+}
+/*# sourceMappingURL=LetsStart.module.css.map */

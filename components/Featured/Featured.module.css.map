@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,aAAa,CAAC;EACV,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;EACvB,WAAW,EAAE,MAAM;EACnB,QAAQ,EAAE,QAAQ;EAClB,MAAM,EAAE,MAAM;CACf",
+    "sources": [
+        "Featured.module.scss"
+    ],
+    "names": [],
+    "file": "Featured.module.css"
+}

@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+.textBorder {
+  font-family: "Playfair Display", serif;
+  font-size: 48px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.border {
+  height: 54px;
+  width: 12px;
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+}
+
+.title {
+  margin: 0 2rem;
+}
+/*# sourceMappingURL=TextBorder.module.css.map */

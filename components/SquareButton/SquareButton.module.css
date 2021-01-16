@@ -1,0 +1,39 @@
+.square button {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  width: 248px;
+  height: 248px;
+  border: 2px solid #222222;
+  color: #fff;
+  background: #222222;
+  -webkit-transition: color 0.3s, background 0.3s, border 0.3s;
+  transition: color 0.3s, background 0.3s, border 0.3s;
+  display: block;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0.05em;
+  font-size: 22px;
+  margin-bottom: 7px;
+  text-transform: uppercase;
+  margin: 0.7rem;
+}
+
+.square button span {
+  font-family: "Playfair Display", serif;
+  font-size: 35px;
+  text-transform: uppercase;
+  line-height: 1;
+}
+
+.square button:hover {
+  background: #fff;
+  color: #222222;
+}
+/*# sourceMappingURL=SquareButton.module.css.map */

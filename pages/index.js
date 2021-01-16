@@ -1,65 +1,51 @@
 import Head from 'next/head'
+import About from '../components/About/About'
+import Button from '../components/Button/Button'
+import Gallery from '../components/Gallery/Gallery'
+import GalleryImg from '../components/GalleryImg/GalleryImg'
+import Header from '../components/Header/Header'
+import LetsStart from '../components/LetsStart/LetsStart'
+import Slider from '../components/Slider/Slider'
+import TextBorder from '../components/TextBorder/TextBorder'
+import Kirman from '../components/Kirman/Kirman'
 import styles from '../styles/Home.module.css'
+import Featured from '../components/Featured/Featured'
 
 export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>Aaron Kirman</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
+      <Header/>
+      
+      <Slider/>
+      <div className={styles.centerMargin}>
+      <TextBorder title="Featured Listings" />
+      </div>
+      
+      <Gallery>
+        <GalleryImg name="14000 Calle Real" amount="$110,000,000" desc="15 Beds | 26 Baths" img="https://s3.amazonaws.com/clientphotos.idxbroker.com/listings/client_37077/0dcc318fbd768cae13bf53f189577c3e1594068802" />
+        <GalleryImg name="14000 Calle Real" amount="$110,000,000" desc="15 Beds | 26 Baths" img="https://s3.amazonaws.com/clientphotos.idxbroker.com/listings/client_37077/f2079306e103b848f2d888e68a114d0c1590010523" />
+        <GalleryImg name="14000 Calle Real" amount="$110,000,000" desc="15 Beds | 26 Baths" img="https://media.crmls.org/mediaz/1268FA12-9CFF-43CB-9E3F-4E14727E526E.jpg" />
+        <GalleryImg name="14000 Calle Real" amount="$110,000,000" desc="15 Beds | 26 Baths" img="https://media.crmls.org/mediaz/35F65301-D253-4266-B6F1-8B7EAE85CF07.jpg" />
+        <GalleryImg name="14000 Calle Real" amount="$110,000,000" desc="15 Beds | 26 Baths" img="https://media.crmls.org/mediaz/0B806189-E0D4-4C63-952A-2BB7B8D6922D.jpg" />
+        <GalleryImg name="14000 Calle Real" amount="$110,000,000" desc="15 Beds | 26 Baths" img="https://media.crmls.org/mediaz/75946C91-03EE-4B36-A812-7BA073034446.jpg" />
+      </Gallery>
 
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
+      <div className={styles.centerMargin}>
+        <Button text="View All Properties" />
+      </div>
 
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
+      <About />
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
+      <LetsStart />
 
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
+      <Kirman />
 
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
-        </div>
-      </main>
-
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
-      </footer>
+      <Featured />
     </div>
   )
 }

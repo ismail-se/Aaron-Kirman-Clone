@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,OAAO,CAAC,6EAAI;AAEZ,AAAA,WAAW,CAAC;EACV,WAAW,EAAE,yBAAyB;EACtC,SAAS,EAAE,IAAI;EACf,OAAO,EAAE,IAAI;EAEb,QAAQ,EAAE,QAAQ;CAEnB;;AAED,AAAA,OAAO,CAAC;EACN,MAAM,EAAE,IAAI;EACZ,KAAK,EAAE,IAAI;EACX,WAAW,EAAE,cAAc;EAC3B,YAAY,EAAE,cAAc;CAC7B;;AAED,AAAA,MAAM,CAAC;EACH,MAAM,EAAE,MAAM;CACjB",
+    "sources": [
+        "TextBorder.module.scss"
+    ],
+    "names": [],
+    "file": "TextBorder.module.css"
+}

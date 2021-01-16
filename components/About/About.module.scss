@@ -1,0 +1,26 @@
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .imgWrapper {
+    flex: 1;
+
+    img {
+      width: 100%;
+    }
+  }
+  .textWrapper {
+    flex: 1;
+    padding: 4rem;
+
+    .para {
+      padding-bottom: 9px;
+      font-size: 1.06vw;
+      font-weight: 400;
+      color: #595959;
+      text-align: justify;
+      line-height: 29px;
+    }
+  }
+}

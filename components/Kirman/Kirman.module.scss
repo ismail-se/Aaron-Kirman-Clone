@@ -1,0 +1,37 @@
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .imgWrapper {
+    flex: 1.2;
+
+    .img {
+      background: url("/kf-image.jpg");
+      position: relative;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 427px;
+      filter: grayscale(1);
+      z-index: 1;
+      transition: all 0.325s ease-in-out;
+    }
+    .img:hover {
+      filter: grayscale(0);
+    }
+  }
+  .textWrapper {
+    flex: 1;
+    padding: 4rem;
+
+    .para {
+      padding-bottom: 9px;
+      font-size: 17px;
+      font-weight: 400;
+      color: #595959;
+      text-align: justify;
+      line-height: 29px;
+    }
+  }
+}

@@ -1,0 +1,38 @@
+.about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about .imgWrapper {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.about .imgWrapper img {
+  width: 100%;
+}
+
+.about .textWrapper {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding: 4rem;
+}
+
+.about .textWrapper .para {
+  padding-bottom: 9px;
+  font-size: 1.06vw;
+  font-weight: 400;
+  color: #595959;
+  text-align: justify;
+  line-height: 29px;
+}
+/*# sourceMappingURL=About.module.css.map */

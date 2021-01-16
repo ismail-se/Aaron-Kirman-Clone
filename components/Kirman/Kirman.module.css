@@ -1,0 +1,53 @@
+.about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about .imgWrapper {
+  -webkit-box-flex: 1.2;
+      -ms-flex: 1.2;
+          flex: 1.2;
+}
+
+.about .imgWrapper .img {
+  background: url("/kf-image.jpg");
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 427px;
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
+  z-index: 1;
+  -webkit-transition: all 0.325s ease-in-out;
+  transition: all 0.325s ease-in-out;
+}
+
+.about .imgWrapper .img:hover {
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
+}
+
+.about .textWrapper {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding: 4rem;
+}
+
+.about .textWrapper .para {
+  padding-bottom: 9px;
+  font-size: 17px;
+  font-weight: 400;
+  color: #595959;
+  text-align: justify;
+  line-height: 29px;
+}
+/*# sourceMappingURL=Kirman.module.css.map */
